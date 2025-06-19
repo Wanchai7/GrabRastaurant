@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../componant/Navbar'
-import Restaurant from '../componant/Restaurant'
+import Restaurant from '../componant/Restaurant';
 const Home = () => {
   return (
     <div className="container mx-auto">
