@@ -1,8 +1,8 @@
 import { createBrowserRouter } from "react-router";
 
-import AddRestaurant from '../pages/AddRestaurant'
-import Home from '../pages/Home'
-import Update from '../pages/Update'
+import AddRestaurant from '../page/AddRestaurant'
+import Home from '../page/Home'
+import Update from '../page/Update'
 
 const router = createBrowserRouter([
     {

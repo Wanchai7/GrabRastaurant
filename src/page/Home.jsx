@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import Navbar from '../components/Navbar'
-import Restaurants from '../components/Restaurants'
+import Restaurants from '../component/Restaurant'
 
 const Home = () => {
 

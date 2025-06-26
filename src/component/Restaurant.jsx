@@ -1,7 +1,7 @@
 import React from 'react'
 import Card from './Card'
 
-const Restaurants = ({ restaurants }) => {
+const Restaurant = ({ restaurants }) => {
     return (
         <div className='flex'>
             <div className='flex flex-wrap justify-center gap-4'>
@@ -18,4 +18,4 @@ const Restaurants = ({ restaurants }) => {
     )
 }
 
-export default Restaurants
+export default Restaurant
