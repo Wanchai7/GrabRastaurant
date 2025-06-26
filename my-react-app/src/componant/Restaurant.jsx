@@ -1,25 +1,21 @@
-import React from "react";
-import Card from "./card";
+import React from 'react'
+import Card from './Card'
 
 const Restaurants = ({ restaurants }) => {
-  return (
-    <div className="flex">
-      <div className="flex flex-wrap justify-center gap-4 mx-3.5">
-        {restaurants &&
-          restaurants.map((restaurant) => {
-            return (
-              <Card
-                key={restaurant.id}
-                title={restaurant.title}
-                type={restaurant.type}
-                img={restaurant.img}
-              />
-            );
-          })}
-        
-      </div>
-    </div>
-  );
-};
+    return (
+        <div className='flex'>
+            <div className='flex flex-wrap justify-center gap-4'>
+                {
+                    restaurants && restaurants.map((restaurant) => {
+                        return (
+                            <Card key={restaurant.id} id={restaurant.id} title={restaurant.title} type={restaurant.type} img={restaurant.img} />
+                        )
+                    })
+                }
+                
+            </div>
+        </div>
+    )
+}
 
-export default Restaurants;
+export default Restaurants
